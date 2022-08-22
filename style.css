@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding : 0 ;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 100%;    
+    background-color: #1D1E1F;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-section {
+
+
+    padding :10px
+    
+}
+.nav {
+    background-color: #202124;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding :14px;
+   
+    
+}
+
+.nav a {
+    margin-right: 10px;
+    color : white
+}
+
+.content-section {
+    display: grid ;
+    grid-template-rows: 1fr 0.5fr 0.25fr 0.25fr;
+    gap : 5px;
+    place-content: center;
+    margin :200px auto ;
+    width: 960px;
+}
+
+.content-section h1{
+    color : white;
+    margin : auto ;
+    font-size: 6rem;
+    margin: 40px auto ;
+    font-weight: 700;
+}
+
+.content-section p {
+    margin: 10px auto ;
+    color : #828D8B ;
+}
+
+.content-section input {
+    height: 40px;
+
+    max-width: 550;
+    width: 100%;
+    border-radius: 20px ;
+    background-color: #202124;
+    border: 1px solid #828D8B;
+}
+
+.content-botton{
+    display: flex;
+    justify-content: center;
+    gap :30px ;
+
+}
+.content-botton button{
+    width: 120px;
+    height: 50px;   
+    border-radius: 10px;
+    background-color: #1D1E1F;
+    color : white;
+    border: 1px solid #828D8B;
+}
